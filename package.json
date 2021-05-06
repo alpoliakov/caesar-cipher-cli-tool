@@ -2,7 +2,7 @@
   "name": "caesar-cipher-cli-tool",
   "version": "1.0.0",
   "description": "Caesar cipher encode/decode CLI tool",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
     "test": "lint-staged",
     "lint": "eslint --fix .",
