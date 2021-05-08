@@ -81,6 +81,10 @@ node app -a encode -s 7 -i "./input.txt" -o "./output.txt"
 or
 node app --action encode --shift 7 --input input.txt --output output.txt
 ````
+> input.txt
+> `This is secret. Message about "_" symbol!`
+> output.txt
+> `Aopz pz zljyla. Tlzzhnl hivba "_" zftivs!`
 
 - For decode use name option ````action```` - **decode**. (Decoding encoded initial string with the same -s(--shift) number produces the initial string.)
 ````
