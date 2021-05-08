@@ -83,6 +83,7 @@ node app --action encode --shift 7 --input input.txt --output output.txt
 ````
 > input.txt
 > `This is secret. Message about "_" symbol!`
+>
 > output.txt
 > `Aopz pz zljyla. Tlzzhnl hivba "_" zftivs!`
 
