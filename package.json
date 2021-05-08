@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Caesar cipher encode/decode CLI tool",
   "main": "app/index.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "scripts": {
     "test": "lint-staged",
     "lint": "eslint --fix .",
