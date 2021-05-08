@@ -38,8 +38,8 @@ node app OPTIONS
 ````
 ### Options
 **caesar-cipher-cli-tool** accepts the following options (short alias and full name)
-- **-a, --action**: an action encode/decode (required)
-- **-s, --shift**: a shift (required)
+- **-a, --action**: an action: ````"encode"```` or ````"decode"```` (required)
+- **-s, --shift**: a shift (required). Must be an integer.
 - **-i, --input**: an input file
 - **-o, --output**: an output file
 - **-h, --help**: show help
@@ -67,7 +67,6 @@ node app -a encode -s 3 -i input.txt
 or
 use full option names or combine with short ones
 ````
-for decode use name option ````action```` - **decode**. (Decoding encoded initial string with the same -s(--shift) number produces the initial string.)
 
 - Run script to read from console and write to file:
 ````
